@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+:root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --pruple600: #1b0058;
+  --red600: #dc0000;
+  --body: #f9f6ff;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in;
+  color: black;
+}
+nav ul li:hover {
+  border-bottom: 2px solid black;
+  transition: 0.2s ease-in;
+}
+
+.hero-section {
+  background-image: url(img/background.jpg);
+  height: 100vh;
+  display: grid;
+  color: white;
+  place-items: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-section h1 {
+  font-size: 90px;
+  color: black;
+}
+
+.hero-section h3 {
+  font-size: 32px;
+  color: black;
+}
+
+.hero-section p {
+  font-size: 20px;
+  color: black;
+}
+
+.music-section {
+  padding-top: 50px;
+  background: white;
+}
+
+.music-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ipad-iphone-img {
+  margin: relative;
+  top: 400px;
+}
+
+.primary-btn {
+  background-color: var(--red600);
+  color: white;
+}
+
+.secondary-btn {
+  background-color: var(--red600);
+  color: white;
+}
+.music-section h2 {
+  font-size: 50px;
+}
+.music-section h4 {
+  font-size: 20px;
+}
+
+.about-music {
+  padding: 100px;
+  display: grid;
+  place-items: center;
+  gap: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gift-section {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 45px;
+}
+
+.gift-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-lower {
+  background-color: var(--purple300);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
